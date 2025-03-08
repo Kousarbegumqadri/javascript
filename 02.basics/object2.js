@@ -33,7 +33,26 @@ const user=[
         name:'ab',
     },
 ]
-console.log(tinderuser);
-console.log(Object.keys(tinderuser))
-console.log(Object.values(tinderuser))
-console.log(Object.entries(tinderuser))
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser))
+// console.log(Object.values(tinderuser))
+// console.log(Object.entries(tinderuser))
+const course={
+    coursename:"js in hindi",
+    courseInstructur:"abc",
+}
+const{courseInstructur:Instructur}=course
+console.log(Instructur)
+//************destructure
+// const navbar=({company}) =>{
+
+// }
+// navbar(company='abc')
+//***********json*************** */
+{
+    'place':'athiya',
+   'price':'999',
+    'location':'hyd',
+}
+//note//
+//All apis are in json format//
